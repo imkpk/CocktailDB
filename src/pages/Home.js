@@ -52,7 +52,6 @@ export const Home = () => {
 
   return (
     <main>
-      Home page
       <SearchForm setSearchTerm={setSearchTerm} />
       <CocktailsList loading={loading} cocktails={cocktails} />
     </main>
