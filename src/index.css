@@ -74,7 +74,7 @@ a {
 img {
   width: 100%;
   display: block;
-  /* align-items: center; */
+  align-items: center;
   /* align-content: center; */
 }
 /*  */
@@ -255,8 +255,9 @@ Cocktail
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto;
   border-radius: var(--mainBorderRadius);
+  margin-right: auto;
 }
 .cocktail:hover {
   box-shadow: var(--darkShadow);
