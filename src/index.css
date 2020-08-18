@@ -257,7 +257,6 @@ Cocktail
   display: grid;
   grid-template-rows: auto;
   border-radius: var(--mainBorderRadius);
-  margin-right: auto;
 }
 .cocktail:hover {
   box-shadow: var(--darkShadow);
