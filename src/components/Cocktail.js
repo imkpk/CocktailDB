@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Cocktail({ id, name, info, image, glass }) {
   return (
     <article className='cocktail'>
-      <div>
+      <div className='drink'>
         <img src={image} alt={name} />
       </div>
       <div className='cocktail-footer'>
