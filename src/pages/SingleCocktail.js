@@ -104,7 +104,7 @@ export default function SingleCocktail() {
             <p>Glass:{glass}</p>
             <p>Instructions:{instructions}</p>
             <p>
-              Ingredients:{" "}
+              Ingredients:
               {ingredients.map((item, index) => {
                 return item ? <span key={index}>{item}</span> : null;
               })}
