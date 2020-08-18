@@ -14,13 +14,11 @@ export default function SearchForm({ setSearchTerm }) {
     setSearchTerm(searchValue.current.value);
   };
   return (
-    <section className=''>
+    <section className='section'>
       <h2 className='section-title'>Search Cocktails</h2>
       <form className='form search-form' onSubmit={handleSubmit} action=''>
         <div className='form-control'>
-          <label htmlFor='name' className='name'>
-            search your favorite coktail
-          </label>
+          <label htmlFor='name'>search your favorite coktail</label>
           <input
             type='text'
             name='name'
