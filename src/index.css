@@ -74,10 +74,7 @@ a {
 img {
   width: 100%;
   display: block;
-  align-items: center;
-  /* align-content: center; */
 }
-/*  */
 .loading {
   text-transform: capitalize;
   text-align: center;
@@ -255,7 +252,7 @@ Cocktail
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
   display: grid;
-  grid-template-rows: auto;
+  grid-template-rows: auto 1fr;
   border-radius: var(--mainBorderRadius);
 }
 .cocktail:hover {
